@@ -1,0 +1,68 @@
+# npm package files
+node_modules
+
+# enviornment files
+.env
+
+#cronjob files
+runjob.sh
+
+# process id
+*.pid
+
+# temp package file
+.package.*
+
+# start/stop/check shell script
+check-service.sh
+start-service.sh
+stop-service.sh
+
+# lib folder
+lib
+
+# log folder
+log/cronjob/cronjob-*
+log/database/sql-*
+log/database/redis-*
+log/debug/debug-*
+log/debug/event-*
+log/debug/info-*
+log/error/error-*
+log/security/login-*
+log/security/not-*
+log/security/permission-*
+log/security/security-*
+log/sql/sql-*
+
+#plugins
+plugins/Authorization
+plugins/BitCoin
+plugins/BlankPlugin
+plugins/BlockchainDataPlugin
+plugins/EthereumTransfer
+plugins/EthereumWithdrawl
+plugins/EtherscanTrackAddr
+plugins/EtherscanTrackTx
+plugins/ExchangeRate
+plugins/InfuraTrackBalance
+plugins/System
+plugins/Task
+plugins/TaskQueue
+plugins/TaskWorker
+plugins/TrackEthAddress
+plugins/User
+plugins/User2Factor
+plugins/UserAccount
+plugins/UserAuth
+plugins/UserDeposit
+plugins/UserEmail
+plugins/UserHistory
+plugins/UserNotification
+plugins/UserTransfer
+plugins/UserWhitelist
+plugins/UserWithdrawal
+plugins/ZerokeyTransfer
+plugins/ZerokeyWithdrawal
+plugins/Wallet
+plugins/WsNotification

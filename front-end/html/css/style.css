@@ -1,0 +1,29 @@
+/* ----------- Navigation ----------- */
+
+
+/* ----------- Report ----------- */
+
+#hero {
+    margin-top: 65px;
+}
+
+.logo {
+  height: 40px;
+  margin-left: 50px;
+}
+
+.thumbs{
+  height: 40px;
+  margin-top: 30px;
+}
+
+.certififedID{
+  height:20px;
+}
+.bg-light-more{
+  background-color: #eee;
+}
+h2.form-signin-heading {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}

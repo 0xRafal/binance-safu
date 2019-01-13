@@ -1,0 +1,21 @@
+{
+  "name": "hexsafe",
+  "update": "2019-01-13",
+  "version": "0.2.37",
+  "description": "HexSAFE custodian System [Master]",
+  "scripts": {
+    "about": "./shell/about.sh",
+    "commit": "./shell/commit.sh",
+    "git-pull": "./shell/git-pull.sh",
+    "git-push": "./shell/git-push.sh",
+    "setup": "./shell/setup.sh",
+    "test": "./shell/test.sh",
+    "update-projects": "./shell/shell-update.sh"
+  },
+  "dependencies": {
+    "bigdecimal": "^0.6.1"
+  },
+  "author": "Cloudgen Wong",
+  "license": "ISC",
+  "devDependencies": {}
+}

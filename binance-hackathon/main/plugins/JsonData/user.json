@@ -1,0 +1,10 @@
+{ 
+    "John":{
+        "password": 123,
+        "arma_karma": 0
+    },
+    "Tom":{
+        "password": 123,
+        "arma_karma": 0
+    }
+}

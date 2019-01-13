@@ -1,0 +1,28 @@
+# npm package files
+node_modules
+
+# enviornment files
+.env
+
+#cronjob files
+runjob.sh
+
+# process id
+*.pid
+
+# temp package file
+.package.*
+
+# log folder
+log/cronjob/cronjob-*
+log/database/sql-*
+log/database/redis-*
+log/debug/debug-*
+log/debug/event-*
+log/debug/info-*
+log/error/error-*
+log/security/login-*
+log/security/not-*
+log/security/permission-*
+log/security/security-*
+log/sql/sql-*

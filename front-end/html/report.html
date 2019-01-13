@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Report</title>
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  </head>
+
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light position-relative border-bottom bg-white">
+      <a class="navbar-brand py-0 pr-0 font-weight-light" href="#">
+        <img class="img-fluid logo" src= "img/Logo-Armadillo.png" /></a>
+
+
+      <div class="collapse navbar-collapse pl-2" id="navbarSupportedContent">
+        <form class="form-inline">
+          <input class="form-control rounded-0" type="search" placeholder="BTC, ETH, EOS address" aria-label="Search">
+          <a class="btn btn-secondary rounded-0" type="submit" href="comment.html">CHECK</a>
+        </form>
+
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link py-0 px-2" href="report.html"><div class="px-2 "><i class="far fa-flag"></i> Report address</a></div></a>
+          <a class="nav-item nav-link py-0 px-2" href="#"><div class="px-2 ">2 ArmaKarma</div></a>
+          <a class="nav-item nav-link py-0 px-2" href="#"><div class="px-2 font-weight-bold">10 ARMA</div></a>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- hero section -->
+    <div class="container" id="hero">
+
+      <div class="row">
+        <div class="col-12">
+          <h2 class="form-signin-heading text-center">What malicious address would you like to report?</h2>
+        </div>
+        <div class="col-6 mx-auto mb-2">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text rounded-0" >Address:</span>
+            </div>
+              <input type="text" id="reportAddress" class="form-control input-sm address-box rounded-0" placeholder="Bitcoin,Ethereum,EOS address ..." aria-label="Address" aria-describedby="basic-addon1">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 mx-auto">
+          <div class="form-group">
+             <textarea class="form-control rounded-0" rows="6" placeholder="Please specify a reason for your report" id="reportReason"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-auto mx-auto">
+          <input id="Reportbutton" type="submit" name="button" value="SEND >" class="btn btn-dark mt-4" ></input>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="js/submitReport.js"></script>
+
+  </body>
+</html>

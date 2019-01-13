@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Comment page</title>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body class="bg-light-more">
+
+    <nav class="navbar navbar-expand-lg navbar-light position-relative border-bottom bg-white">
+      <a class="navbar-brand py-0 pr-0 font-weight-light" href="#">
+        <img class="img-fluid logo" src= "img/Logo-Armadillo.png" /></a>
+
+
+      <div class="collapse navbar-collapse pl-2" id="navbarSupportedContent">
+        <form class="form-inline">
+          <input class="form-control rounded-0" type="search" placeholder="BTC, ETH, EOS address" aria-label="Search">
+          <button class="btn btn-secondary rounded-0" type="submit">CHECK</button>
+        </form>
+
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link py-0 px-2" href="report.html"><div class="px-2 "><i class="far fa-flag"></i> Report address</a></div></a>
+          <a class="nav-item nav-link py-0 px-2" href="#"><div class="px-2 ">2 ArmaKarma</div></a>
+          <a class="nav-item nav-link py-0 px-2" href="#"><div class="px-2 font-weight-bold">10 ARMA</div></a>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <div class="container mt-4">
+      <div class="row">
+
+        <div class="col-md-8">
+           <div class="col-md-12 p-3 mb-2 bg-white border-bottom">
+             <div class="row">
+               <div class="col text-center">
+                   <img src="img/open-iconic-master/svg/thumb-down.svg" alt="thumb-down" class="justify-center img-fluid thumbs">
+                </div>
+               <div class="col-10">
+                 <div class="">
+                   <h2 class="font-weight-bold text-success " id="overviewPercentage">
+                     <svg width="20" height="20">
+                       <rect width="20" height="20" style="fill:rgb(0, 153, 5);stroke-width:3;stroke:rgb(0, 153, 5)" />
+                     </svg><span id = "percentageQuantity"> 10%</span></h2>
+                   <div class="border border-secondary p-2 mb-2"><span id="address">0xA83996cACE93B2af6c54222A51DA5Dbda8526172f8757u8yugjhjhuy654</span></div>
+                   <div class = "text-muted">Posted by peter  &nbsp 16 hours ago &nbsp 10 ArmaKarma</div>
+                   <div class = "text-muted mt-4 mb-4"><a><small><i class="far fa-flag"></i> Report address</small></a></div>
+                 </div>
+               </div>
+              </div>
+           </div>
+           <!-- address info part done -->
+           <div class="col-md-12 p-4 bg-white">
+              <div class="row">
+                <div class="font-weight-bold col-auto mr-auto bg-white">
+                  &nbsp&nbsp&nbsp&nbsp&nbsp2 Discussion Entries
+                </div>
+                <div class="col-auto bg-white ">
+                  <a href="#" class="btn border-warning mt-0" role="button">FOLLOW  ></a>
+                </div>
+              </div>
+           </div>
+           <div class="col-12 bg-white">
+             <div class="col-12">
+               <div class="text-muted font-weight-light"><small>&nbsp&nbsp&nbsp&nbspjinyo  &nbsp&nbsp  11 hours ago   &nbsp&nbsp  2 ArmaKarma</small></div>
+               <div>&nbsp&nbsp&nbspYo I think this is a pretty secure account.</div>
+             </div>
+             <br/>
+             <div class="col-12 border-bottom">
+               <div class="text-muted font-weight-light"><small>&nbsp&nbsp&nbsp&nbspkktc &nbsp&nbsp 11 hours ago  &nbsp&nbsp 5  ArmaKarma</small></div>
+               <div>&nbsp&nbsp&nbspyeah</div>
+               <br/>
+             </div>
+             <div class="col-12 bg-white">
+               <div class="col-12 mx-auto">
+                 <br/>
+                 <div class="form-group">
+                    <textarea class="form-control rounded-0" rows="6" placeholder="Write your idea about this address" id="comment"></textarea>
+                 </div>
+               </div>
+               <div class="col-auto mx-auto">
+                 <a href="#" id="sendComment" class="btn btn-dark mt-0" role="button">SEND  ></a>
+                 <br/>
+               </div>
+               <br/>
+             </div>
+           </div>
+
+
+        </div>
+        <!-- First box end -->
+
+
+
+
+
+        <div class="col-md-4 bg-white ">
+            <div class="col-md-12 p-3 mb-2 bg-white border-bottom">
+
+              <span class="d-block p-2 bg-dark text-white">INFO</span>
+              <img id="uniqueGraph" src="img/Graph/graph_n-50.png"/>
+
+              <p>
+                <img class="certififedID" src ="img/Icons_certified.png" />
+                Armadillo
+              </p>
+
+              <div class="row">
+
+                <div class="col">
+
+                  <div class="font-weight-bold" id="transactionInOut">10/15</div>
+                  Transactions in/out
+                </div>
+                <div class="col">
+                  <div class="font-weight-bold" id = "numComments">2</div>
+                  Comments
+                </div>
+                <div class="col">
+                  <div class="font-weight-bold" id="balance">2,578</div>
+                  Balance
+                </div>
+              </div>
+              <br/>
+
+              <a href="http://www.google.com">Blockchain explorer ></a>
+              </div>
+          <!--  INFO END-->
+
+
+            <div class="col-md-12 p-3 mb-2 bg-white">
+                <span class="d-block p-2 bg-dark text-white">ADVERTISEMENT</span>
+                <br/>
+
+            </div>
+          <!--  ADVERT END-->
+
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+<script>
+(function($){
+  var address=("" + window.location).replace(/^[^#]+/g,"");
+  if(address==""){
+    address="0xA83996cACE93B2af6c54222A51DA5Dbda8526172f8757u8yugjhjhuy655";
+  }
+  $("#address").html(address);
+})(jQuery);
+</script>
+
+  </body>
+</html>

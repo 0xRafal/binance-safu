@@ -1,0 +1,49 @@
+{
+  "name": "Main",
+  "update": "2019-01-09",
+  "version": "0.2.46",
+  "plugin-dependencies": "user-auth",
+  "description": "Hex Custody API - Main System",
+  "main": "main.js",
+  "scripts": {
+    "about": "./shell/about.sh",
+    "clean": "./shell/clean.sh",
+    "commit": "./shell/commit.sh",
+    "start": "./shell/exec.sh",
+    "test": "./shell/test.sh"
+  },
+  "author": "Cloudgen Wong",
+  "license": "Commerical",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "bigdecimal": "^0.6.1",
+    "bignumber.js": "^8.0.1",
+    "bip39": "^2.5.0",
+    "bitcoin": "^3.0.1",
+    "bitcoinjs-lib": "^4.0.2",
+    "body-parser": "^1.18.3",
+    "cron": "^1.5.0",
+    "dotenv": "^5.0.1",
+    "eosjs-api": "^7.0.4",
+    "ethereumjs-wallet": "0.6.0",
+    "ethereumjs-tx": "^1.3.7",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "knex": "^0.14.4",
+    "mariasql": "^0.2.6",
+    "qrcode": "^1.2.2",
+    "request": "^2.87",
+    "request-promise": "^4.2.2",
+    "speakeasy": "^2.0.0",
+    "truffle-hdwallet-provider": "0.0.6",
+    "useragent": "^2.3.0",
+    "web3": "^1.0.0-beta.36"
+  },
+  "git-group-name": "open-api",
+  "git-server-name": "gitlab.hex",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1"
+  }
+}

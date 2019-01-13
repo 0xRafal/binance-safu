@@ -1,0 +1,20 @@
+{
+  "name": "armatoken",
+  "version": "1.0.0",
+  "description": "handles deployment of arma token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "keccak": "^2.0.0",
+    "truffle": "^3.4.11",
+    "truffle-hdwallet-provider": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
